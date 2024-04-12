@@ -14,4 +14,9 @@ abstract class NoteDatabase : RoomDatabase() {
 
     abstract val noteDao: NoteDao
 
+    companion object{
+         const val DB_NAME: String = "note_db"
+    }
+
+
 }
